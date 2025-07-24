@@ -3,9 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: Add a global font if you want, e.g., Inter from Google Fonts */
+/* Optional: Import the Inter font for a consistent look */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* Apply the font globally */
 body {
   font-family: 'Inter', sans-serif;
 }
