@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tailwind-init": "npx tailwindcss init -p" 
+    "tailwind-init": "npx tailwindcss init -p",
+    "postbuild": "npx tailwindcss -i ./src/index.css -o ./build/static/css/main.css --minify"
   },
   "eslintConfig": {
     "extends": [
